@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="img/hand.jpg" alt="Заголовок сайта">
+        <h1>Контакты</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="exchange.html">Обмен книгами</a></li>
+                <li><a href="gift.html">Отдам книги в дар</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section >
+            <h2>Свяжитесь с нами:</h2>
+            <p>Email: <span class="underline">example@example.com</span></p>
+            <p>Телефон: <span class="underline">+7 (999) 999-99-90</span></p>
+            <form id="contactForm" action="#" method="post">
+                <fieldset>
+                    <label for="name">Имя:</label><br />
+                    <input type="text" id="name" name="name" required><br />
+                    <label for="message">Сообщение:</label><br />
+                    <textarea id="message" name="message" required></textarea><br />
+                    <input type="submit" value="Отправить">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <script src="contact.js"></script> </body>
+</html>
